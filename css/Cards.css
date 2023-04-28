@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.button-1,
+.button-2,
+.button-4,
+.button-5,
+.button-6 {
+  background-color: white;
+}
+
+.button-3 {
+  background-color: black;
+  color: white;
+}
+
+.button-3:hover {
+  background-color: black;
+  color: white;
+}
+
+#button-ferdi {
+  text-decoration: none;
+}
+
+.button-1 {
+  display: inline-flex;
+  margin-left: 64px;
+}
+
+#nav-link {
+  color: black;
+  font-size: 19px;
+}
+
+.bi-telephone-fill {
+  color: coral;
+}
+
+.button-phone,
+.button-banking {
+  border-color: rgb(226, 226, 226);
+  border-radius: 25px;
+}
+
+.footer-container,
+.footer-container-2,
+.footer-container-3,
+.footer-container-4,
+.footer-container-5,
+.footer-container-6,
+.footer-container-7 {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-container-2 {
+  margin-left: 12rem;
+}
+
+.footer-container-3 {
+  margin-left: 19rem;
+}
+
+.footer-container-4 {
+  margin-left: 28rem;
+}
+
+.footer-container-5 {
+  margin-left: 37rem;
+}
+
+.footer-container-6 {
+  margin-left: 51rem;
+}
+
+.footer-container-7 {
+  margin-left: 68rem;
+}
+
+.social-icone {
+  margin-top: 22rem;
+}
+
+.icone {
+  color: gray;
+}
+
+.icone1,
+.icone2 {
+  color: #ED6E2D;
+}
+
+#adif {
+  width: 80px;
+  transform: translate(61rem, -4rem);
+}
+
+#header {
+  color: #ED6E2D;
+}
+
+.btn-outline-secondary {
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ED6E2D;
+  color: white;
+  border-color: #ED6E2D;
+}
+
+.headertext {
+  color: #ED6E2D;
+}
+
+.card1 {
+  width: 100%;
+  background-color: #FAFAFA;
+  border-radius: 25px;
+  border-color: #FAFAFA;
+}
+
+.ucard {
+  margin-left: -10rem;
+  transform: scale(0.7);
+}
+
+.Ucard {
+  top: 0px;
+  left: 0px;
+}
+
+.image-card img {
+  width: 100%;
+}
+
+.btn-1 {
+  color: white;
+  background-color: #ED6E2D;
+  border-radius: 20px;
+}
+
+.btn-1:hover {
+  color: white;
+  background-color: #ED6E2D;
+  border-radius: 20px;
+}
+
+.bi-file-earmark-text,
+.bi-hourglass-top {
+  font-size: 40px;
+  color: #ED6E2D;
+}
+
+.text-card {
+  display: inline-block;
+  width: 5rem;
+}
+
+.text-card2 {
+  display: inline-block;
+  width: 8rem;
+}
+
+.text-header {
+  color: #ED6E2D;
+  font-weight: bolder;
+}
+
+#DebetCard,
+#DebetCard2,
+#DebetCard3,
+#DebetCard4,
+#DebetCard5,
+#DebetCard6,
+#DebetCard7,
+#DebetCard8 {
+  width: 600px;
+  height: 490px;
+  border-radius: 20px;
+  border-color: #FAFAFA;
+  background-color: #FAFAFA;
+  display: inline-block;
+}
+
+.card-image {
+  width: 55%;
+}
+
+.digitalimg {
+  margin-top: 40px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.since {
+  font-size: 15px;
+}/*# sourceMappingURL=Cards.css.map */

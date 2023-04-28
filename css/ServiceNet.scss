@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img-logo {
+	width: 30px;
+	height: 30px;
+}
+.nav-link {
+	font-size: 15px;
+}
+.button-1,
+.button-2,
+.button-4,
+.button-5,
+.button-6 {
+	background-color: white;
+}
+.button-3 {
+	background-color: black;
+	color: white;
+	&:hover {
+		background-color: black;
+		color: white;
+	}
+}
+#button-ferdi {
+	text-decoration: none;
+}
+.button-1 {
+	display: inline-flex;
+	margin-left: 64px;
+}
+#nav-link {
+	color: black;
+	font-size: 19px;
+}
+.bi-telephone-fill {
+	color: coral;
+}
+.button-phone,
+.button-banking {
+	border-color: rgb(226, 226, 226);
+	border-radius: 25px;
+}
+.footer-container,
+.footer-container-2,
+.footer-container-3,
+.footer-container-4,
+.footer-container-5,
+.footer-container-6,
+.footer-container-7 {
+	color: black;
+	text-decoration: none;
+}
+.footer-container-2 {
+	margin-left: 12rem;
+}
+.footer-container-3 {
+	margin-left: 19rem;
+}
+.footer-container-4 {
+	margin-left: 28rem;
+}
+.footer-container-5 {
+	margin-left: 37rem;
+}
+.footer-container-6 {
+	margin-left: 51rem;
+}
+.footer-container-7 {
+	margin-left: 68rem;
+}
+.social-icone {
+	margin-top: 22rem;
+}
+.icone {
+	color: gray;
+}
+.icone1,
+.icone2 {
+	color: #ed6e2d;
+}
+#adif {
+	width: 80px;
+	transform: translate(61rem, -4rem);
+}
+#header {
+	color: #ed6e2d;
+}
+.btn-outline-secondary {
+	border-radius: 20px;
+	transform: scale(1.5);
+	&:hover {
+		background-color: #ed6e2d;
+		color: white;
+		border-color: #ed6e2d;
+	}
+}
+.Map {
+	border-radius: 20px;
+}
+.branch {
+	width: 92%;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #fafafa;
+	&:hover {
+		color: white;
+		background-color: #ed6e2d;
+	}
+}
+#bi-clock {
+	margin-left: 5rem;
+	position: absolute;
+	margin-top: -1.3rem;
+	transform: scale(2.4);
+}
+#week-day {
+	margin-left: 9rem;
+	margin-top: -1.8rem;
+	position: absolute;
+}
+#shield-check {
+	margin-left: 28rem;
+	position: absolute;
+	margin-top: -1.5rem;
+	transform: scale(2.4);
+}
+.persons {
+	margin-left: 50rem;
+	margin-top: -4.5rem;
+	position: absolute;
+}
+.records {
+	width: 92%;
+	height: 80px;
+	border-radius: 15px;
+	background-color: #ed6e2d;
+	color: white;
+}
+#bi-shield {
+	margin-top: 26px;
+	position: absolute;
+	transform: scale(1.4);
+}
+.record {
+	margin-top: 26px;
+	margin-left: 78px;
+	position: absolute;
+}
+

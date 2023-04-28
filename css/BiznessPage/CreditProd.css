@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+.button-1,
+.button-2,
+.button-4,
+.button-5,
+.button-6 {
+    background-color: white;
+}
+
+.button-3 {
+    background-color: black;
+    color: white;
+}
+
+.button-3:hover {
+    background-color: black;
+    color: white;
+}
+
+#button-ferdi {
+    text-decoration: none;
+}
+
+.button-1 {
+    display: inline-flex;
+    margin-left: 64px;
+}
+
+#nav-link {
+    color: black;
+    font-size: 19px;
+}
+
+.bi-telephone-fill {
+    color: coral;
+}
+
+.button-phone,
+.button-banking {
+    border-color: rgb(226, 226, 226);
+    border-radius: 25px;
+}
+
+.footer-container,
+.footer-container-2,
+.footer-container-3,
+.footer-container-4,
+.footer-container-5,
+.footer-container-6,
+.footer-container-7 {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-container-2 {
+    margin-left: 12rem;
+}
+
+.footer-container-3 {
+    margin-left: 19rem;
+}
+
+.footer-container-4 {
+    margin-left: 28rem;
+}
+
+.footer-container-5 {
+    margin-left: 37rem;
+}
+
+.footer-container-6 {
+    margin-left: 51rem;
+}
+
+.footer-container-7 {
+    margin-left: 68rem;
+}
+
+.social-icone {
+    margin-top: 22rem;
+}
+
+.icone {
+    color: gray;
+}
+
+.icone1,
+.icone2 {
+    color: #ED6E2D;
+}
+
+#adif {
+    width: 80px;
+    transform: translate(61rem, -4rem);
+}
+
+#header {
+    color: #ED6E2D;
+}
+
+.btn-outline-secondary {
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ED6E2D;
+    color: white;
+    border-color: #ED6E2D;
+}
+
+.header-text {
+    color: #ED6E2D;
+    font-weight: bolder;
+}
+
+.bi-person-fill,
+.bi-arrow-right-circle-fill {
+    color: #ED6E2D;
+}
+
+.card {
+    transition: 0.5s;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
+}
+
+.card-title {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card-title i {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+    color: #ffa710
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #ED6E2D;
+    color: white;
+    transition: 2s;
+}
+
+.card-text {
+    height: 80px;
+}
+
+
+.card::before,
+.card::after {
+    position: absolute;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(190, 25, 25, 0.1);
+    content: '';
+    pointer-events: none;
+}
+
+.card::before {
+    transform-origin: left top;
+}
+
+.card::after {
+    transform-origin: right bottom;
+}
+
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+    transform: scale3d(1, 1, 1);
+}

@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 224, 224);
+}
+
+.Registration {
+  top: 0px;
+  left: 0px;
+  transform: translate(7rem, 5rem);
+}
+
+.lang {
+  transform: translate(62rem, 0rem);
+  text-decoration: none;
+  color: grey;
+}
+.lang:hover {
+  transform: translate(62rem, 0rem);
+  text-decoration: none;
+  color: grey;
+}
+
+#main-logo {
+  transform: translate(8rem, 0rem);
+}
+
+.text-header {
+  transform: translate(0rem, 7rem);
+}
+
+.carousel-box {
+  width: 550px;
+  height: 730px;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: black;
+}
+
+.Registration-box {
+  width: 550px;
+  height: 730px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: -2rem;
+}
+
+#registration {
+  margin-left: 12rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#qrCode {
+  transform: scale(0.4);
+  margin-left: -6rem;
+  margin-top: -7rem;
+}
+
+.btn-outline-dark {
+  border-color: coral;
+  color: grey;
+  transform: translate(17rem, -19rem);
+}
+.btn-outline-dark:hover {
+  background-color: white;
+  border-color: coral;
+  color: grey;
+}
+
+.btn-outline-blue {
+  border-color: grey;
+  color: grey;
+  transform: translate(17rem, -19rem);
+}
+.btn-outline-blue:hover {
+  background-color: white;
+  border-color: grey;
+  color: grey;
+}
+
+.info {
+  display: flex;
+  transform: translate(0rem, -16rem);
+  background-color: rgb(212, 212, 212);
+}
+
+.form {
+  transform: translate(0rem, -14rem);
+}
+
+.label-text,
+.password,
+.text {
+  color: coral;
+}
+
+#account {
+  transform: translate(-14rem, 2.5rem);
+}
+
+#login-info {
+  transform: translate(26rem, -1.8rem);
+}
+
+#lock {
+  transform: translate(-2.5rem, 2.5rem);
+}
+
+.cod-text {
+  transform: translate(0rem, -12rem);
+}
+
+.cod-input {
+  width: 240px;
+}
+
+#captcha {
+  transform: translate(-9.5rem, 2.5rem);
+}
+
+.button {
+  transform: translate(0rem, -10rem);
+}
+
+.btn-info {
+  background-color: coral;
+  color: white;
+  border-color: coral;
+}
+.btn-info:hover {
+  background-color: coral;
+  color: white;
+  border-color: coral;
+}
+
+.bi-chevron-right {
+  padding-left: 23rem;
+}
+
+#demo {
+  transform: translate(5rem, 5rem);
+}
+
+.carousel-inner {
+  width: 340px;
+  height: 240px;
+  border-radius: 10px;
+}
+
+.carousel-indicators-circle {
+  transform: translate(9rem, 36rem);
+}
+
+.carousel-box,
+.Registration-box {
+  box-shadow: 20px 20px 50px 15px grey;
+}/*# sourceMappingURL=İnternetBanking.css.map */
