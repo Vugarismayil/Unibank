@@ -32,7 +32,7 @@
 
 #button-ferdi {
   text-decoration: none;
-  border: 1px solid #FF6400;
+  border: 1px solid #ff6400;
 }
 
 #button-biznes {
@@ -45,8 +45,8 @@
 }
 
 .change {
-  border: 1px solid #FF6400;
-  color: #FF6400;
+  border: 1px solid #ff6400;
+  color: #ff6400;
 }
 
 .button-1 {
@@ -70,7 +70,7 @@
 
 .bi-person-fill,
 .bi-arrow-right-circle-fill {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 .carousel-inner {
@@ -120,9 +120,9 @@
   top: 0px;
   left: 0px;
   transform: translate(42rem, 18rem);
-  border-color: #ED6E2D;
+  border-color: #ed6e2d;
   background-color: white;
-  color: #ED6E2D;
+  color: #ed6e2d;
   border-radius: 28px;
 }
 
@@ -131,16 +131,16 @@
   top: 0px;
   left: 0px;
   transform: translate(52rem, 18rem);
-  border-color: #ED6E2D;
+  border-color: #ed6e2d;
   background-color: white;
-  color: #ED6E2D;
+  color: #ed6e2d;
   border-radius: 28px;
 }
 
 .bi-person-fill,
 .bi-arrow-right-circle-fill,
 .header-text {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 .box-1,
@@ -150,17 +150,17 @@
   position: absolute;
   width: 300px;
   height: 350px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 20px;
 }
 
 .percentage {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #button-order {
   color: white;
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   border-radius: 25px;
   font-size: 23px;
 }
@@ -180,7 +180,7 @@
 .UBank {
   width: 100%;
   height: 430px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   margin-top: 30rem;
   border-radius: 20px;
 }
@@ -188,7 +188,7 @@
 #Ubank {
   margin-left: 68px;
   margin-top: 60px;
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #par {
@@ -203,7 +203,7 @@
 #button-About {
   margin-left: 4rem;
   margin-top: 3rem;
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   color: white;
   border-radius: 26px;
   font-size: 23px;
@@ -218,12 +218,12 @@
 .Valyuta {
   width: 100%;
   height: 700px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 10px;
 }
 
 #h2 {
-  color: #ED6E2D;
+  color: #ed6e2d;
   margin-top: 4rem;
 }
 
@@ -268,7 +268,7 @@ small {
   margin-left: 49rem;
   margin-top: -9rem;
   position: absolute;
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #usd-img {
@@ -285,30 +285,30 @@ small {
 #box-3 {
   width: 400px;
   height: 300px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 25px;
 }
 
 #box:hover {
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   color: white;
 }
 
 #box-2 {
   margin-left: 28rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 #box-2:hover {
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   color: white;
 }
 
 #box-3 {
   margin-left: 56rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 #box-3:hover {
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   color: white;
 }
 
@@ -321,17 +321,17 @@ small {
   width: 700px;
   height: 300px;
   margin-top: 32rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 15px;
   position: relative;
 }
 
 #text-servic {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #button-news {
-  background-color: #ED6E2D;
+  background-color: #ed6e2d;
   color: white;
   border-radius: 25px;
   display: inline-flex;
@@ -349,12 +349,12 @@ small {
   height: 300px;
   margin-top: -18.8rem;
   margin-left: 46rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 15px;
 }
 
 #question {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #CallCenter {
@@ -407,7 +407,7 @@ small {
 
 .icone1,
 .icone2 {
-  color: #ED6E2D;
+  color: #ed6e2d;
 }
 
 #adif {
@@ -439,4 +439,40 @@ small {
 
 .tel:hover {
   color: black;
+}
+
+.product {
+  margin-top: 30px;
+}
+.product table {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.product table thead {
+  background-color: #e8eaeb;
+  padding: 9px 12px;
+}
+.product table thead tr th {
+  text-align: center;
+  padding: 9px 12px;
+  font-weight: 700;
+}
+.product table tbody tr td {
+  text-align: center;
+}
+.product table tbody tr td:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+.product table tbody tr td:nth-child(2) img {
+  width: 70%;
+  display: inline-block;
+}
+.product table tbody tr td input {
+  border: none;
 }/*# sourceMappingURL=home.css.map */

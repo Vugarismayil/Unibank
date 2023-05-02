@@ -124,7 +124,6 @@
 		box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 		background-color: #ed6e2d;
 		color: white;
-		transform: scale(1.25) rotate(360deg);
 		transition: 2s;
 		a {
 			i {
@@ -152,9 +151,7 @@
 		transition: 1s;
 		cursor: pointer;
 		color: #ffa710;
-		&:hover {
-			transform: scale(1.25) rotate(100deg);
-		}
+		
 	}
 }
 .card-text {
@@ -224,7 +221,7 @@
 	iframe{
 		width: 100%;
 		height: 325px;
-		margin-left: 40px;
+		margin-left: -24px;
 		
 	}
 	
