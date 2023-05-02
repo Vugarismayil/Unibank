@@ -15,7 +15,7 @@ function ShowProduct() {
   productList.forEach((element) => {
     x += `
    <tr data-id="${element.productId}" >
-   <td> <span id="dlt">x</span> </td>
+   <td> <span id="dlt"><i class="fa-solid fa-trash" style="color: #ff9500; cursor: pointer;"></i></span> </td>
    <td> <img src="${element.image}" alt=""></td>
    <td>${element.productName}</td>
    <td>${element.productPrice}</td>
@@ -80,7 +80,7 @@ function handleCountChange(productId, newCount) {
     });
     localStorage.setItem("products", JSON.stringify(productList));
   } else {
-    alert("Minimum deyer 0 ola biler");
+    alert("Minimum deyer 1 ola biler");
   }
   DeleteItem();
   ShowProduct();

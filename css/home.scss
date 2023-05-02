@@ -394,13 +394,15 @@ small {
 		border-radius: 5px;
 		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 		thead {
-			background-color: #e8eaeb;
+			background-color: #FF6400;  
+			
 			padding: 9px 12px;
 			tr {
 				th {
 					text-align: center;
 					padding: 9px 12px;
 					font-weight: 700;
+					color: white;
 				}
 			}
 		}
@@ -418,7 +420,11 @@ small {
 					}
 					input {
 						border: none;
+						width: 50px;
+						
 					}
+					
+
 				}
 			}
 		}
